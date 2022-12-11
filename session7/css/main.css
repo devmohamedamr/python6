@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* float */
+/* .container{
+    width: 80%;
+    height: 500px;
+    background: gold;
+    margin:50px auto;
+}
+
+.member{
+    width: 20%;
+    height: 40%;
+    background: blueviolet;
+    float: left;
+    margin: 1% 2%;
+  
+} */
+
+
+
+/* flex */
+
+
+.container2{
+    width: 80%;
+    height: 600px;
+    margin:50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* box sizing */
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: 2px solid red;
+}
